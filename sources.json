@@ -1,0 +1,7 @@
+{
+    "repos": [
+        {"name": "dev-notes",  "owner": "Suhaiail", "theme": "notes"},
+        {"name": "dotfiles",   "owner": "Suhaiail", "theme": "dotfiles"},
+        {"name": "til",        "owner": "Suhaiail", "theme": "til"}
+    ]
+}

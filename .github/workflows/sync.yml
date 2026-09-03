@@ -1,0 +1,53 @@
+name: Sync Notes
+
+on:
+  schedule:
+    - cron: '0 * * * *'
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Restore state
+        uses: actions/cache/restore@v4
+        with:
+          path: .data/
+          key: sync-state-${{ github.run_id }}
+          restore-keys: |
+            sync-state-
+
+      - name: Run sync
+        env:
+          GH_PAT: ${{ secrets.GH_PAT }}
+          GIT_USER_NAME: ${{ vars.GIT_USER_NAME }}
+          GIT_USER_EMAIL: ${{ vars.GIT_USER_EMAIL }}
+        run: python scripts/sync.py
+
+      - name: Push changes
+        run: |
+          git config user.name "${{ vars.GIT_USER_NAME }}"
+          git config user.email "${{ vars.GIT_USER_EMAIL }}"
+          git add -A
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: sync data"
+            git push
+          fi
+
+      - name: Save state
+        uses: actions/cache/save@v4
+        if: always()
+        with:
+          path: .data/
+          key: sync-state-${{ github.run_id }}
