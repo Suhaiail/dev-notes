@@ -4,3 +4,4 @@
 - [System Design Primer](https://github.com/donnemartin/system-design-primer) — System design study guide
 - [Real Python](https://realpython.com) — In-depth Python tutorials
 - [Exercism](https://exercism.org) — Code practice with mentoring
+- [Roadmap.sh](https://roadmap.sh) — Developer learning roadmaps
