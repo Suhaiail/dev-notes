@@ -6,3 +6,4 @@
 - [2026-09-13] Explored Terraform modules and state management
 - [2026-09-14] Learned about Docker multi-stage builds
 - [2026-09-21] Explored Python type hints and mypy strict mode
+- [2026-09-23] Reviewed TypeScript conditional and mapped types
