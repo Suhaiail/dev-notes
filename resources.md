@@ -5,3 +5,4 @@
 - [Real Python](https://realpython.com) — In-depth Python tutorials
 - [Exercism](https://exercism.org) — Code practice with mentoring
 - [Roadmap.sh](https://roadmap.sh) — Developer learning roadmaps
+- [The Algorithms](https://the-algorithms.com) — Algorithm implementations
