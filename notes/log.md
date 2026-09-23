@@ -7,3 +7,4 @@
 - [2026-09-14] Learned about Docker multi-stage builds
 - [2026-09-21] Explored Python type hints and mypy strict mode
 - [2026-09-23] Reviewed TypeScript conditional and mapped types
+- [2026-09-23] Studied gRPC vs REST performance trade-offs
