@@ -10,3 +10,4 @@
 - [2026-09-23] Studied gRPC vs REST performance trade-offs
 - [2026-09-24] Studied HTTP/2 multiplexing and server push
 - [2026-09-30] Read about zero-downtime deployment strategies
+- [2026-10-06] Studied WebSocket vs SSE for real-time apps
