@@ -5,4 +5,4 @@
 - [x] Set up ESLint + Prettier config
 - [ ] Set up database migration workflow
 - [ ] Update project dependencies to latest
-- [ ] Implement API rate limiting middleware
+- [x] Implement API rate limiting middleware
