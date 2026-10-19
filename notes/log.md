@@ -12,3 +12,4 @@
 - [2026-09-30] Read about zero-downtime deployment strategies
 - [2026-10-06] Studied WebSocket vs SSE for real-time apps
 - [2026-10-07] Explored CSS container queries
+- [2026-10-19] Explored Redis pub/sub and Streams
