@@ -8,3 +8,4 @@
 - [x] Implement API rate limiting middleware
 - [ ] Benchmark cold start times
 - [ ] Configure CORS headers properly
+- [ ] Add error boundary to React components
