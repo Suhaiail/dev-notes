@@ -9,3 +9,4 @@
 - [ ] Benchmark cold start times
 - [ ] Configure CORS headers properly
 - [ ] Add error boundary to React components
+- [ ] Add structured logging to payment module
