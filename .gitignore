@@ -9,3 +9,4 @@ __pycache__/
 coverage/
 .mypy_cache/
 .tox/
+node_modules/
