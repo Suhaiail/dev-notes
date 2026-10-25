@@ -13,3 +13,4 @@
 - [2026-10-06] Studied WebSocket vs SSE for real-time apps
 - [2026-10-07] Explored CSS container queries
 - [2026-10-19] Explored Redis pub/sub and Streams
+- [2026-10-25] Reviewed REST vs GraphQL API design
