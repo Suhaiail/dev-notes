@@ -10,3 +10,4 @@
 - [ ] Configure CORS headers properly
 - [ ] Add error boundary to React components
 - [ ] Add structured logging to payment module
+- [ ] Add health check endpoint
