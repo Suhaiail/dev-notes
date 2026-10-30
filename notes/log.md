@@ -14,3 +14,4 @@
 - [2026-10-07] Explored CSS container queries
 - [2026-10-19] Explored Redis pub/sub and Streams
 - [2026-10-25] Reviewed REST vs GraphQL API design
+- [2026-10-31] Studied OAuth 2.0 PKCE flow for SPAs
