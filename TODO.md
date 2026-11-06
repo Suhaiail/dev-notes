@@ -11,3 +11,4 @@
 - [x] Add error boundary to React components
 - [ ] Add structured logging to payment module
 - [x] Add health check endpoint
+- [ ] Review pull request feedback
