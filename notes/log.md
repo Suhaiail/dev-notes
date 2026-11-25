@@ -17,3 +17,4 @@
 - [2026-10-31] Studied OAuth 2.0 PKCE flow for SPAs
 - [2026-11-08] Studied CAP theorem and distributed consensus
 - [2026-11-21] Studied database indexing strategies for PostgreSQL
+- [2026-11-25] Reviewed Python decorators and metaclasses
