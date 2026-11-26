@@ -11,3 +11,4 @@ coverage/
 .tox/
 node_modules/
 .vscode/
+build/
